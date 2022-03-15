@@ -9,8 +9,8 @@ const Home = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#023e7d] text-2xl">Hi, my name is</p>
-        <h1 className="text-white text-6xl my-2">Gabriel Tomsic</h1>
-        <h2 className="text-gray-500 text-6xl max-w-[700px]">
+        <h1 className="text-white   text-4xl md:text-6xl my-2">Gabriel Tomsic</h1>
+        <h2 className="text-gray-500  text-4xl md:text-6xl max-w-[700px]">
           I'm a full Stack Developer.
         </h2>
         <p className="text-gray-400 text-2xl text-justify mt-5">
