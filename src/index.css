@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
 @layer base {
   body {
@@ -21,12 +21,6 @@
 }
 
 .content-div:hover {
-  /* background-image: linear-gradient(
-    to right,
-    rgba(112, 157, 255, 0.8),
-    hsla(242, 74% 61%, 0.8)
-  ) !important; */
-  background-color: rgba(112, 157, 255, 0.8) !important;
+  background: linear-gradient(#e66465, #9198e5) !important;
   cursor: pointer;
 }
-/* bg-[#212529] */
