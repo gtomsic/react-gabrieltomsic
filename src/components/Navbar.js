@@ -1,11 +1,5 @@
 import * as React from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -110,46 +104,19 @@ const Navbar = () => {
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600">
               <a
                 className="flex justify-between items-center w-full text-gray-100"
-                href="/"
+                href="https://github.com/gtomsic"
               >
                 GitHub
                 <FaGithub size={30} />
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
-              <a
-                className="flex justify-between items-center w-full text-gray-300"
-                href="/"
-              >
-                Facebook
-                <FaFacebook size={30} />
-              </a>
-            </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
-                href="/"
+                href="https://www.linkedin.com/in/gabriel-tomsic-0013561b3/"
               >
                 LinkedIn
                 <FaLinkedin size={30} />
-              </a>
-            </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-teal-500">
-              <a
-                className="flex justify-between items-center w-full text-gray-300"
-                href="/"
-              >
-                Email
-                <HiOutlineMail size={30} />
-              </a>
-            </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-violet-700">
-              <a
-                className="flex justify-between items-center w-full text-gray-300"
-                href="/"
-              >
-                Resume
-                <BsFillPersonLinesFill size={30} />
               </a>
             </li>
           </ul>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
   return (
@@ -14,9 +14,9 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-[#023e7d]  text-gray-300 ">
             Contact
           </p>
+          <p className="my-4  text-gray-300">// Submit the form below</p>
           <p className="my-4  text-gray-300">
-            // Submit the form below or shoot me a an email -
-            gabriel@gabrieltomsic.com
+            // Not interested in staffing angecy
           </p>
         </div>
         <input

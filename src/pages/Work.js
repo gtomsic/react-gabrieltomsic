@@ -7,9 +7,18 @@ import work3 from "../assets/projects/project-3.png";
 
 const Work = () => {
   const images = [
-    { name: "React Login", image: work1 },
-    { name: "Social Network", image: work2 },
-    { name: "Personal Project", image: work3 },
+    {
+      name: "E-commerce",
+      image: work1,
+      link: "https://gstop-client.herokuapp.com/",
+      github: "https://github.com/gtomsic/gstop_eCommerce",
+    },
+    {
+      name: "Aworw | Social Network",
+      image: work2,
+      link: "https://awrow.com/login",
+      github: "https://github.com/gtomsic/gstop_eCommerce",
+    },
   ];
   const renderCard = images.map((item) => <WorkCard project={item} />);
 

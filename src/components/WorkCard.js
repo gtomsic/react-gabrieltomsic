@@ -12,12 +12,12 @@ const WorkCard = ({ project }) => {
           {project.name}
         </span>
         <div className="pt-8 text-center flex justify-center">
-          <a href="/">
+          <a href={project.link}>
             <button className="text-center rounder-lg px-4 py-3 bg-white text-gray-600 font-bold text-lg rounded-md mr-2">
               View
             </button>
           </a>
-          <a href="/">
+          <a href={project.github}>
             <button className="text-center rounder-lg px-4 py-3 bg-white text-gray-600 font-bold text-lg rounded-md">
               Github
             </button>
